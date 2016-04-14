@@ -1,0 +1,17 @@
+/*******************************************************************************
+ * Author :          Nill_Rhoads
+ * Email :           nillrhoads@gmail.com
+ * Last modified :   2016-04-14 11:37
+ * Filename :        README
+ * Description :     
+ * *****************************************************************************/
+
+This Project Modified on the basis of Orange'S Little System 
+<It's just copy chapter five code.>
+
+folder Desc:
+	OS_Nil: system source code folder.
+	OSMakerLearning: practice source code folder.
+	
+first step: supported platform x64_86 compiler
+
