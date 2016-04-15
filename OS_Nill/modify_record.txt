@@ -1,0 +1,25 @@
+/*******************************************************************************
+ * Author :          Nill_Rhoads
+ * Email :           nillrhoads@gmail.com
+ * Last modified :   2016-04-15 11:06
+ * Filename :        modify_record.txt
+ * Description :     
+ * *****************************************************************************/
+
+--------------------------------------------------
+x64 platform make
+
+error: x86_64 compiler errror
+
+fix: add -m32 to CFLAGS  add -m elf_i386 to LDFLAGS 
+--------------------------------------------------
+error:gcc undefined reference to ‘__stack_chk_fail’
+
+fix:add -fno-stack-protector to your CFLAGS.
+
+--------------------------------------------------
+error:sys/cdefs.h: No such file or directory
+
+fix: install this: sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev  x11proto-core-dev libx11-dev lib32z-dev
+
+--------------------------------------------------
